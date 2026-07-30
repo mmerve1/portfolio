@@ -19,7 +19,7 @@ export default function Footer() {
               <span className="logo-name">{personalInfo.name}</span>
             </div>
             <p className="footer-tagline">
-              Enterprise Software Engineer • Microservices • IoT Platforms
+              Software Engineer • Microservices • IoT Platforms
             </p>
           </div>
 
@@ -35,10 +35,6 @@ export default function Footer() {
           <button onClick={scrollToTop} className="scroll-top-btn" title="Back to Top">
             <ArrowUp size={18} />
           </button>
-        </div>
-
-        <div className="footer-bottom">
-          <p>© {new Date().getFullYear()} Merve Özdemir. All rights reserved.</p>
         </div>
       </div>
 
